@@ -1,0 +1,16 @@
+@'
+{
+  "name": "twylo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/backend",
+    "apps/web",
+    "apps/mobile",
+    "packages/shared"
+  ],
+  "scripts": {
+    "check": "npm run check --workspaces --if-present"
+  }
+}
+'@ | Set-Content -Encoding utf8 package.json
