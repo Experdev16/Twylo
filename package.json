@@ -1,5 +1,4 @@
-@'
-{
+﻿{
   "name": "twylo",
   "version": "1.0.0",
   "private": true,
@@ -13,4 +12,3 @@
     "check": "npm run check --workspaces --if-present"
   }
 }
-'@ | Set-Content -Encoding utf8 package.json
